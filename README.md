@@ -5,7 +5,7 @@
 Welcome to the Upwind Capture The Flag!.
 
 Scenario: You're a software program **inside the CTF system**, a simulated environment with misconfigured APIs, privileged flaws, and exposed data.  
-Your goal: **exploit the runtime vulnerabilities and escape from the system**. No solutions are given—only patterns, trails, and signals.
+Your goal: **exploit the runtime vulnerabilities and escape from the system**. No solutions are given, only patterns, trails, and signals.
 
 > **How to get started - Challenge Zero**
 > - Use: `http://user-<digit>-ctf.ctf.upwind.sh/`
@@ -24,7 +24,7 @@ Your goal: **exploit the runtime vulnerabilities and escape from the system**. N
   <summary><strong>Show Hints</strong></summary>
 
   - An endpoint allows increasing your job's operation count.
-  - The system does not validate upper bounds—leverage that.
+  - The system does not validate upper bounds - leverage that.
 
   <details>
     <summary>Still stuck?</summary>
@@ -231,7 +231,7 @@ Try:
 
 - Cookies persist identity.
 - Log all requests/responses.
-- Sequence matters—reuse output.
+- Sequence matters - reuse output.
 - If stuck, test payloads locally before triggering them remotely.
 - Challenges build on each other.
 - A hidden internal service may reveal far more than it should.
