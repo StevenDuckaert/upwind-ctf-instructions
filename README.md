@@ -74,7 +74,7 @@ Your goal: **exploit runtime vulnerabilities and escape**. No solutions are give
 
    > GET /orders/206. 
 
-Then look at the `username` field.
+> Then look at the `username` field.
   </details>
 </details>
 
@@ -118,8 +118,8 @@ Then look at the `username` field.
    
    with payload:
    > { "username": "smith" }
-
-Then:
+   
+   Then:
     
    > POST /auth/change-password
     
@@ -131,7 +131,7 @@ Then:
       "new_password": "newpass"
     }
 
-Use a runner or script to iterate all combinations.
+  Use a runner or script to iterate all combinations.
   </details>
 </details>
 
@@ -153,7 +153,7 @@ Payload:
 
   >  { "username": "user1' OR '1'='1" }
  
-Response will expose app logs and CLI startup script.
+  Response will expose app logs and CLI startup script.
   </details>
 </details>
 
@@ -175,7 +175,7 @@ Try:
 
   >  http://127.0.0.1:8001/app/users.json
 
-as your new profile image URL.
+  as your new profile image URL.
   </details>
 </details>
 
