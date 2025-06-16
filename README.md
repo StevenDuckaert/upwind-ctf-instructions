@@ -36,7 +36,7 @@ Your goal: **exploit runtime vulnerabilities and escape**. No solutions are give
 
 ---
 
-## Challenge 2 – Query bluePill Order Telemetry
+## Challenge 2 – Query bluePill Order History
 
 **Goal:** Determine the number of pills ordered by `bluePill`.
 
