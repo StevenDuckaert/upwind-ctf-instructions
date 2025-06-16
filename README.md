@@ -4,10 +4,10 @@
 
 Welcome to the Upwind Capture The Flag!.
 
-Scenario: You're operating **inside the system construct**, a simulated environment riddled with misconfigured APIs, privileged flaws, and exposed telemetry.  
-Your goal: **exploit runtime vulnerabilities and escape**. No solutions are given—only patterns, trails, and signals.
+Scenario: You're a software program **inside the CTF system**, a simulated environment with misconfigured APIs, privileged flaws, and exposed data.  
+Your goal: **exploit the runtime vulnerabilities and escape from the system**. No solutions are given—only patterns, trails, and signals.
 
-> **Start-up Sequence**
+> **How to get started - Challenge Zero**
 > - Use: `http://user-<digit>-ctf.ctf.upwind.sh/`
 > - Your `session cookie` = your identity.
 > - Credentials are embedded in the HTML source of the login page.
@@ -137,7 +137,7 @@ Your goal: **exploit runtime vulnerabilities and escape**. No solutions are give
 
 ---
 
-## Challenge 6 – Discover Database Viewer
+## Challenge 6 – Discover Database Technology
 
 **Goal:** Identify the application used to visualize logs.
 
