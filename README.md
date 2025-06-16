@@ -1,4 +1,4 @@
-![Upwind CTF](https://www.upwind.io/wp-content/uploads/2024/07/Logo-Components-1.svg)
+![Upwind CTF - Participant](https://www.upwind.io/wp-content/uploads/2024/07/Logo-Components-1.svg)
 
 # Upwind CTF – Break Out of the System
 
@@ -218,7 +218,7 @@ as your new profile image URL.
   >  kubectl get pods
 
   >  kubectl exec pod-name -- get secrets
-  
+
   >  kubectl exec pod-name -- last command
 
   </details>
