@@ -2,7 +2,7 @@
 
 # Upwind CTF â€“ Break Out of the System
 
-Welcome to the Upwind Capture The Flag!.
+Welcome to the Upwind Capture The Flag!
 
 Scenario: You're a software program **inside the CTF system**, a simulated environment with misconfigured APIs, privileged flaws, and exposed data.  
 Your goal: **exploit the runtime vulnerabilities and escape from the system**. No solutions are given, only patterns, trails, and signals.
@@ -133,7 +133,7 @@ That said... it's a lot more fun (and satisfying) to solve it all on your own. ğ
    > POST /auth/reset-password
    
    with payload:
-   > { "username": "smith" }
+   > { "username": "username" }
    
    Then:
     
