@@ -1,4 +1,4 @@
-![Upwind CTF - Participant](https://www.upwind.io/wp-content/uploads/2024/07/Logo-Components-1.svg)
+![Upwind CTF - Participant](/assets/Logo-Components-1.svg)
 
 # Upwind CTF – Break Out of the System
 
