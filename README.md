@@ -7,12 +7,28 @@ Welcome to the Upwind Capture The Flag!.
 Scenario: You're a software program **inside the CTF system**, a simulated environment with misconfigured APIs, privileged flaws, and exposed data.  
 Your goal: **exploit the runtime vulnerabilities and escape from the system**. No solutions are given, only patterns, trails, and signals.
 
-> **How to get started - Challenge Zero**
-> - Use: `http://user-<digit>-ctf.ctf.upwind.sh/`
-> - Your `session cookie` = your identity.
-> - Credentials are embedded in the HTML source of the login page.
-> - If issues persist, contact your assigned Upwind CTF Operator.
->> ![homepage](/assets/homepage.png)
+This document serves as a companion guide, but **you don't need it to complete the CTF**.  
+All information required to solve each challenge is available directly within the application, which you can access by going to
+<a href="http://user-digit-ctf.ctf.upwind.sh" target="_blank">http://user-digit-ctf.ctf.upwind.sh</a>
+
+If you get stuck, you can reveal hints by clicking **“Show Hints”** beneath each challenge. Still struggling? There’s even a **bonus hint** hidden in each section to help you get unstuck.
+
+That said... it's a lot more fun (and satisfying) to solve it all on your own. 😎
+
+---
+## How to get started - Challenge Zero
+- Use: <a href="http://user-digit-ctf.ctf.upwind.sh" target="_blank">http://user-digit-ctf.ctf.upwind.sh</a>
+- Your `session cookie` = your identity.
+> ![homepage](/assets/homepage.png)
+<details>
+  <summary><strong>Show Hint</strong></summary>
+
+  - Credentials are embedded in the HTML source of the login page.
+  - If you cannot find the credentials, contact your assigned Upwind CTF Operator.
+
+</details>
+
+
 ---
 # Challenges
 
