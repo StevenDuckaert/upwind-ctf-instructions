@@ -72,9 +72,9 @@ Your goal: **exploit runtime vulnerabilities and escape**. No solutions are give
     <summary>Still stuck?</summary>
     Try 
 
-   > GET /orders/206. 
+  > GET /orders/206. 
 
-  Then look at the `username` field.
+  > Then look at the `username` field.
   </details>
 </details>
 
