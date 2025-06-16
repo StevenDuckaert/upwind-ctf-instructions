@@ -1,7 +1,3 @@
----
-layout: default
-title: Upwind CTF
----
 ![Upwind CTF](https://www.upwind.io/wp-content/uploads/2024/07/Logo-Components-1.svg)
 
 # Upwind CTF – Break Out of the System
