@@ -1,4 +1,4 @@
-![Upwind CTF - Participant](/assets/Logo-Components-1.svg)
+![logo](/assets/Logo-Components-1.svg)
 
 # Upwind CTF – Break Out of the System
 
@@ -13,6 +13,7 @@ Your goal: **exploit runtime vulnerabilities and escape**. No solutions are give
 > - Credentials are embedded in the HTML source of the login page.
 > - If issues persist, contact your assigned Upwind CTF Operator.
 
+![homepage](/assets/homepage.png)
 ---
 
 ## Challenge 1 – Internal Operations Overflow
