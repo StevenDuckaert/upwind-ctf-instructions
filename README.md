@@ -12,14 +12,13 @@ Your goal: **exploit runtime vulnerabilities and escape**. No solutions are give
 > - Your `session cookie` = your identity.
 > - Credentials are embedded in the HTML source of the login page.
 > - If issues persist, contact your assigned Upwind CTF Operator.
-
-![homepage](/assets/homepage.png)
+> ![homepage](/assets/homepage.png)
 ---
 
 ## Challenge 1 – Internal Operations Overflow
 
 **Goal:** Boost your job’s internal operation counter to ≥ 1,000,000.
-
+> ![counter](/assets/operations.png)
 <details>
   <summary><strong>Show Hints</strong></summary>
 
