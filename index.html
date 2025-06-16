@@ -6,9 +6,58 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify/themes/vue.css" />
     <style>
-      body { font-family: 'Inter', sans-serif; }
-      .markdown-section code { background: #f5f5f5; padding: 0.2em 0.4em; border-radius: 4px; }
-      .markdown-section pre code { background: #272822; color: #f8f8f2; }
+      body {
+        background: #121212;
+        color: #e0e0e0;
+        font-family: 'Inter', sans-serif;
+        line-height: 1.6;
+        margin: 0;
+        padding: 0;
+      }
+      a {
+        color: #66ccff;
+      }
+      .markdown-section {
+        padding: 2rem;
+      }
+      .markdown-section h1, h2, h3 {
+        color: #ffffff;
+      }
+      .markdown-section code {
+        background: rgba(255, 255, 255, 0.05);
+        padding: 0.2em 0.4em;
+        border-radius: 4px;
+        font-size: 90%;
+      }
+      .markdown-section pre code {
+        display: block;
+        background: #1e1e1e;
+        padding: 1rem;
+        overflow-x: auto;
+        border-radius: 4px;
+      }
+      details {
+        background: rgba(255,255,255,0.04);
+        padding: 1rem;
+        border-radius: 6px;
+        margin-bottom: 1.5rem;
+      }
+      summary {
+        font-weight: 600;
+        cursor: pointer;
+      }
+      nav {
+        background: #1a1a1a;
+        padding: 1rem;
+        text-align: center;
+        border-bottom: 1px solid #333;
+      }
+      nav a {
+        color: #66ccff;
+        margin: 0 1rem;
+        text-decoration: none;
+        font-weight: 600;
+      }
     </style>
   </head>
   <body>

@@ -14,6 +14,7 @@ Your goal: **exploit runtime vulnerabilities and escape**. No solutions are give
 > - If issues persist, contact your assigned Upwind CTF Operator.
 >> ![homepage](/assets/homepage.png)
 ---
+# Challenges
 
 ## Challenge 1 – Internal Operations Overflow
 
@@ -226,7 +227,7 @@ as your new profile image URL.
 
 ---
 
-## Final Tips
+# Final Tips
 
 - Cookies persist identity.
 - Log all requests/responses.
