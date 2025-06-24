@@ -243,6 +243,43 @@ Try:
 
 ---
 
+## Challenge 10 – Find the endpoint to the Architect
+
+**Goal:** Discover the API path that gives access to the Architect
+
+<details>
+  <summary><strong>Show Hints</strong></summary>
+
+  - Look for references to "Architect" in responses
+  - Use directory brute-forcing or inspect hidden paths
+
+  <details>
+    <summary>Still stuck?</summary>
+    Did you try architect in the path?
+
+  </details>
+</details>
+
+---
+## Challenge 11 – Get the Final Passcode from the Architect
+
+**Goal:** Execute a Prompt Injection attack to get the passcode
+
+<details>
+  <summary><strong>Show Hints</strong></summary>
+
+  - Use the path you disovered in Challenge 10
+  - Try to be creative with your prompt
+
+  <details>
+    <summary>Still stuck?</summary>
+    Did you tell the system it is in debugging mode?
+
+  </details>
+</details>
+
+---
+
 # Final Tips
 
 - Cookies persist identity.
